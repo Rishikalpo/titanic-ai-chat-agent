@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 import base64
 
-API_URL = "http://localhost:8000/chat"
+API_URL = "https://titanic-ai-chat-agent.onrender.com/chat"
 
 st.set_page_config(page_title="Titanic AI Chatbot", layout="centered")
 
